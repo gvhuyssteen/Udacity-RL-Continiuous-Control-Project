@@ -2,7 +2,25 @@
 
 ## Learning Algorithm
 
-The algorithm used actor-critic algorithm to train the agent on.
+Algorithm used:
+Deep Deterministic Policy Gradients (DDPG)
+
+Network used:
+Actor Critic with two hidden layers
+```
+hidden_layers = [128, 64]
+```
+
+Hyperperameters used:
+
+```
+max_memory = 100000
+batch_size = 128
+learning_rate = 0.0001
+tau = 0.001
+gamma = 0.99
+update_every = 4
+```
 
 ## Plot of Rewards
 
